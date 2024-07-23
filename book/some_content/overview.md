@@ -1,2 +1,2 @@
 # Overview
-Some new material for my book.
+New material for my book.
