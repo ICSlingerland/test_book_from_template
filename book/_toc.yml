@@ -9,6 +9,8 @@ parts:
       sections:
       - file: some_content/text_and_code.ipynb
       - file: some_content/Chapter1.md
+      - file: some_content/Command lines.md
+      
 # END REMOVE-FROM-PUBLISH
     - file: references.md
     - file: credits.md
