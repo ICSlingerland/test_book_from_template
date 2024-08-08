@@ -1,9 +1,8 @@
 # Terminal Command line Cheat Sheet
 
-## Nomenclature
-
 Command line interface (CLI) is a text-based way to interact with a computer by typing commands, allowing users to manage files, configure systems, and run software efficiently.
 
+## Nomenclature
 
 Command line interface (CLI) $==$ Terminal $==$ Console $==$ Shell $==$  Prompt
 
