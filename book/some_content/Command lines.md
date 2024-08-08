@@ -6,6 +6,7 @@ Command line interface (CLI) is a text-based way to interact with a computer by 
 
 
 Command line interface (CLI) $==$ Terminal $==$ Console $==$ Shell $==$  Prompt
+
 Folder $==$ Directory
 #### Location: folders and files
 
