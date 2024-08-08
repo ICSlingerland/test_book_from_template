@@ -1,3 +1,4 @@
+# Terminal Command line Cheat Sheet
 
 ## Nomenclature
 
@@ -9,25 +10,15 @@ Folder $==$ Directory
 #### Location: folders and files
 
 |  | Mac   | Windows      |
-
 |--|----------|-------------|
-
 |    Present Working Directory  | pwd      | pwd |
-
 | List content of the present working directory | ls        |  ls   |
-
 | Change: Change Directory | cd [directory] ('cd /path/to/directory') | cd [dirctory] ('cd /path/to/directory')  |
-
-|   Touch: Creates a new file or updates the timestamp  | touch [filename] ('touch my_file.txt') | touch [filename] ('touch my_file.txt')         |
-
+|   Touch: Creates a new file or updates the timestamp  | touch [filename] ('touch my_file.txt') | touch [filename] ('touch my_file.txt')|
 | Create new directory  | mkdir {directory_name} ('mkdir my_folder')  | mkdir {directory_name} ('mkdir my_folder')   |
-
 | Copy: Copies file or directory | cp {source} {target} ('cp my_file.txt my_folder')| cp {source}  { target} ('cp my_file.txt my_folder')|
-
 | Moves a file or directory| mv {source} {target} ('mv my_file.txt my_folder')| mv {source} {target} ('mv my_file.txt my_folder')|
-
 |Removes: Removes file |  rm {filename} ('rm my_file.txt') |  rm {filename} ('rm my_file.txt')|
-
 |Removes: Removes directory|  rmdir {directory_name} ('rmdir my_folder') |  rmdir {directory_name}  ('rmdir my_folder') |
 
 
