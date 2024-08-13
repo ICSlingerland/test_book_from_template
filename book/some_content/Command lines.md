@@ -23,48 +23,31 @@ Folder $==$ Directory
 
 
 
+Open the **manual page** `man` for any of these commands to display the manual pages for a given command, providing detailed information on its usage, options, and features. 
+`man pwd`
+- navigation: - Use `j` to scroll down, `k` to scroll up, and `q` to quit and return to the Terminal.
 
-
-
-Open the **manual page** $man$ for any of these commands to display the manual pages for a given command, providing detailed information on its usage, options, and features. 
-- man pwd
-	- navigation: - Use `j` to scroll down, `k` to scroll up, and `q` to quit and return to the Terminal.
-
- clear $\hspace{5mm} \textit{Cleans up your terminal}$
+To clean up your terminal `clear`
  
 ### Python
+|  | Mac   | Windows      |
+|--|----------|-------------|
+|  Varifying and version  | `python3 --version` | `py -3 --version` |
+| Opening Python shell | `python3`    |  `py3`   |
+| run python files | python3 {py_file_name} `python3 filename.py` | py3 {py_file_name} `py3 filename.py`|
+|Open python file in VS Code| code {py_file_name} `code filename.py` | code {py_file_name} `code filename.py` |
 
-varifying and version
-	Windows: py -3 --version
-	Mac/linux: python3 --version
-	
-Opening Python shell:
-	Mac/linux: python3
-	
-	you can now type code in your shell terminal for example:
-	 - print("Hello world") 
-	 To quit your shell type: quite()
+Add the code command for opening pythonfile in VS Code. Open pallete `Cmd +Shft + p`  (`<Shell Command: Install 'code' command in PATH> `)
 
-You can run python files:
-- python3 filename.py
-
-
-Add the code command for opening pythonfile in VS Code. Cmd +Shft + p, Shell Command: Install 'code' command in PATH
-
-you can now 
  
 
-### Virtual environment
-creating
-	Windows: python -m venv my_env
-	Mac: python3 -m venv env
+### Environment
 
-activating
-	Windows: my_env/\Scripts\/activate.bat or my_env\/Scripts\/activate
-	Mac: source my_env/bin/activate
-	
-deactivating
-	deactivate
+|  | Mac   | Windows      |
+|--|----------|-------------|
+|  creating virtual environment| `python3 -m venv env` | `python -m venv my_env` |
+| activating virtual environment | `source my_env/bin/activate`    |  `my_env/\Scripts\/activate.bat or my_env\/Scripts\/activate`   |
+
 
 ### Git
 
