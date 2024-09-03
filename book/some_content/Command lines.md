@@ -79,3 +79,54 @@ Branches:
 
 [github-cheat-sheet](https://github.com/0nn0/git-basics-cheatsheet)
 [Mac-Ternminal-command-line-cheat-sheet](https://github.com/0nn0/terminal-mac-cheatsheet)
+
+
+**Python**
+|  | Mac   | Windows      |
+|--|----------|-------------|
+|  Varifying and version  | `python3 --version` | `py -3 --version` |
+| Opening Python shell | `python3`    |  `py3`   |
+| run python files | python3 {py_file_name} `python3 filename.py` | py3 {py_file_name} `py3 filename.py`|
+|Open python file in VS Code| code {py_file_name} `code filename.py` | code {py_file_name} `code filename.py` |
+
+Add the code command for opening pythonfile in VS Code. Open pallete `Cmd +Shft + p`  (`<Shell Command: Install 'code' command in PATH> `)
+
+`exit` leaves the CLI
+
+Here is a link for a more detailed command line cheat sheets:
+
+[Windows command line cheat sheet](https://gist.github.com/hofmannsven/8392477) 
+[Mac Ternminal command line cheat sheet](https://github.com/0nn0/terminal-mac-cheatsheet)
+
+
+## Using Anaconda Prompt
+
+Now that Miniconda is installed on your system, from now on we will use the Anaconda Prompt; this way instructions will be identical regardless of whether you are using Windows or Mac OS!
+
+````{tab} Windows OS
+
+Open the Windows tool bar and begin typing "Anaconda". You should soon see two options appear: "Anaconda Prompt" and "Anaconda PowerShell Prompt." There two versions are based on the two primary CLI's on Windows: Command Prompt and PowerShell. Unless you are an experienced PowerShell user, we recommend using the Command Prompt version: Anaconda Prompt (see figure below):
+```{figure} figures/anaconda_prompt_open_windows.png
+---
+width: 60%
+name: anaconda_prompt_open_windows
+---
+Open Anaconda Prompt from the Windows menu.
+```
+````
+````{tab} Mac OS
+
+For Mac users this is all made a bit easier. You can just use your Terminal to interact with Anaconda.
+
+You can open Terminal by navigating to Applications > Utilities > Terminal or by searching for "Terminal" using Spotlight `Cmd + Space`. 
+
+Or you can use your terminal in VS Code.  
+
+To activate your Conda environment(by default your base environment) use the following command:
+```none
+conda activate
+```
+
+````
+
+To have a specific CLI open by default when you open a Terminal in VSC, open the Command Palette (`CTRL+SHIFT+P`, `SHIFT+CMD+P`), select the option `Terminal: Select Defaulty Profile` and select your preferred CLI from the list.
