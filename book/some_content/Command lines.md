@@ -130,3 +130,75 @@ conda activate
 ````
 
 To have a specific CLI open by default when you open a Terminal in VSC, open the Command Palette (`CTRL+SHIFT+P`, `SHIFT+CMD+P`), select the option `Terminal: Select Defaulty Profile` and select your preferred CLI from the list.
+
+
+
+:::{card}  Exercises
+
+Derive the forward difference for the first derivative $f'(x_i)$ with a first order error $\mathcal{O}(\Delta x)$ using Taylor series
+
+```{admonition} Solution
+:class: tip, dropdown
+
+Start from the TSE (tip: first derivative and first order error, 1+1=2, we need to do a TSE up trancated untill the 2nd order):
+
+$$
+f(x_i+\Delta x) =  f(x_i) + \Delta x f'(x_i)+ \mathcal{O}(\Delta x)^2
+$$
+
+Rearange to get:
+
+$$ 
+- \Delta x f'(x_i)= -f(x_i+\Delta x)+ f(x_i)+\mathcal{O}(\Delta x)^2 
+$$
+
+Devide by $ - \Delta x $:
+
+$$ 
+f'(x_i)= \frac{f(x_i+\Delta x)- f(x_i)}{\Delta x } + \mathcal{O}(\Delta x) 
+$$
+
+```
+Use taylor series to derive the backward difference for the first derivative $f'(x_i)$ with a first order error $\mathcal{O}(\Delta x)$
+
+```{admonition} Solution
+:class: tip, dropdown
+
+$$
+f(x_i+\Delta x) =  f(x_i) + \Delta x f'(x_i)+ \mathcal{O}(\Delta x)^2
+$$
+
+Rearange to get:
+
+$$ 
+- \Delta x f'(x_i)= -f(x_i+\Delta x)+ f(x_i)+\mathcal{O}(\Delta x)^2 
+$$
+
+Devide by $ - \Delta x $:
+
+$$ 
+f'(x_i)= \frac{f(x_i+\Delta x)- f(x_i)}{\Delta x } + \mathcal{O}(\Delta x) 
+$$
+
+```
+
+Use taylor series to derive the backward difference for the first derivative $f'(x_i)$ with a first order error $\mathcal{O}(\Delta x)$
+
+```{admonition} Solution
+:class: tip, dropdown
+
+Start from the TSE (tip: first derivative and first order error, 1+1=2, we need to do a TSE  trancated untill the 2nd order):
+
+$$f(x_i-\Delta x) =  f(x_i) - \Delta x f'(x_i)+ \mathcal{O}(\Delta x)^2$$
+
+Rearange to get:
+
+$$ \Delta x f'(x_i)= -f(x_i-\Delta x)+ f(x_i)+\mathcal{O}(\Delta x)^2 $$
+
+Devide by $$ \Delta x $$:
+
+$$ f'(x_i)= \frac{ f(x_i)-f(x_i+\Delta x)}{\Delta x } + \mathcal{O}(\Delta x) $$
+
+```
+
+:::
