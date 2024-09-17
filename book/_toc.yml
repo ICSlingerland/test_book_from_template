@@ -4,13 +4,11 @@ root: intro.md
 parts:
   - caption: Contents
     chapters:
-    - file: some_content/overview.md
-# START REMOVE-FROM-PUBLISH
-      sections:
-      - file: some_content/1-revision-of-concepts.ipynb
-      - file: some_content/2-derivative.ipynb
-      - file: some_content/3-taylor-series-expansion.ipynb
-      
+    - file: 1-revision-of-concepts.ipynb
+    - file: 2-derivative.ipynb
+    - file: 3-taylor-series-expansion.ipynb
+    - file: 4-numerical-integration.ipynb
+  
       
       
 # END REMOVE-FROM-PUBLISH
