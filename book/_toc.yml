@@ -4,15 +4,21 @@ root: intro.md
 parts:
   - caption: Contents
     chapters:
-    - file: 1-revision-of-concepts.ipynb
-    - file: 2-derivative.ipynb
-    - file: 3-taylor-series-expansion.ipynb
-      - file: 93-taylor-series-exercise.ipynb
-
-    - file: 4-numerical-integration.ipynb
-  
-      
-      
+    - file: intro.md
+    
+      sections:
+        - file: 1-revision-of-concepts.ipynb
+          title: Revision of Concepts
+        - file: 2-derivative.ipynb
+          title: Derivatives
+        - file: 3-taylor-series-expansion.ipynb
+          title: Taylor Series Expansion
+            sections:
+              - file: 93-taylor-series-exercise.ipynb
+                title: Taylor Series Exercise
+        - file: 4-numerical-integration.ipynb
+          title: Numerical Integration
+     
 # END REMOVE-FROM-PUBLISH
     - file: references.md
     - file: credits.md
