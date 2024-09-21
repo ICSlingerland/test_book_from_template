@@ -7,6 +7,9 @@ parts:
     - file: 1-revision-of-concepts.ipynb
     - file: 2-derivative.ipynb
     - file: 3-taylor-series-expansion.ipynb
+      sections:
+      - file: 93-taylor-series-exercise.ipynb
+
     - file: 4-numerical-integration.ipynb
   
       
