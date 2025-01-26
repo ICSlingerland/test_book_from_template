@@ -1,4 +1,4 @@
-(intro)=
+(intro)= # my intro
 # Welcome to the Template Book
 
 _Write book intro here. This is the first page the student will see when opening the url._
@@ -6,6 +6,9 @@ _Write book intro here. This is the first page the student will see when opening
 This book is a template and im using it to practise/try-out making an interactive book
 
 ---
+## Excercise 1
+
+my first excercise {ref} `intro`
 
 This book is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
 
