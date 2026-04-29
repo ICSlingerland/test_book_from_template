@@ -1,6 +1,6 @@
 # Radar Interferometry
 
-_Write book intro here. This is the first page the student will see when opening the url._
+
 
 This is an open interactive book on Radar Interferometry and provides and follows along the InSAR course provided by the Geoscience and Remote Sensing department of the TU delft. For a more comprehensive dive into the InSAR theory we can refer you to the book {cite}`hanssen2001radar`
 
