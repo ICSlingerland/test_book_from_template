@@ -5,6 +5,8 @@ parts:
   - caption: Contents
     chapters:
     - file: Geometry.ipynb
+      sections:
+      - file: Module_1_completed.ipynb
 
   
       
