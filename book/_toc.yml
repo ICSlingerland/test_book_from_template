@@ -7,6 +7,12 @@ parts:
     - file: Geometry.ipynb
       sections:
       - file: Module_1_completed.ipynb
+    - file: Phase_Unwrapping.ipynb
+      sections:
+      - file: Module_3_Phase_Unwrapping.ipynb
+    - file: spectral_diversity.ipynb
+      sections:
+      - file: Module_3_Spectraldiversity-solved.ipynb
 
   
       
