@@ -12,7 +12,10 @@ parts:
       - file: Module_3_Phase_Unwrapping.ipynb
     - file: spectral_diversity.ipynb
       sections:
-      - file: module_3_spectraldiversity-solved.ipynb
+      - file: module_3_spectraldiversity_solved.ipynb
+    - file: functional_model.ipynb
+
+
 
   
       
